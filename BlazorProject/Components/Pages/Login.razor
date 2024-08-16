@@ -1,0 +1,47 @@
+﻿@page "/"
+@layout Layout.LoginAuth
+@rendermode InteractiveServer
+
+
+
+<link href="bootstrap.min.css" rel="stylesheet">
+
+<link href="signin.css" rel="stylesheet">
+
+<EditForm Enhance Model="@loginModel" OnValidSubmit="HandleLogin" FormName="loginForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="center">
+        <img class="mb-4 logo" src="umat-logo.png" alt="" width="72" height="72">
+    </div>
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+ 
+    <InputText id="email" @bind-Value="loginModel.Email" class="form-control p-2" placeholder="Email address" required autofocus />
+
+   <InputText id="password"  type="password" @bind-Value="loginModel.Password" class="form-control input" placeholder="Password" required/>
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="remember-me"> Remember me
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" id="button" type="submit">Login</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+</EditForm>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+    private void HandleLogin()
+    {
+        email = loginModel.Email;
+        NavigationManager.NavigateTo($"/homepage/{loginModel.Email}", true);
+    }
+    [CascadingParameter]
+    public string email { get; set; }
+    [Inject] NavigationManager NavigationManager { get; set; }
+    
+    public class LoginModel
+    {
+    public string Email { get; set; }
+    public string Password { get; set; }
+    }
+}

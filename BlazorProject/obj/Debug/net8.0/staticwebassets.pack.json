@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\project.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\Chart.min.js",
+      "PackagePath": "staticwebassets\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\feather.min.js",
+      "PackagePath": "staticwebassets\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\jquery-3.2.1.slim.min.js",
+      "PackagePath": "staticwebassets\\jquery-3.2.1.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\popper.min.js",
+      "PackagePath": "staticwebassets\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\signin.css",
+      "PackagePath": "staticwebassets\\signin.css"
+    },
+    {
+      "Id": "C:\\Users\\eckin\\OneDrive\\Desktop\\csharp\\ASSIGNMENT 1\\project\\project\\wwwroot\\umat-logo.png",
+      "PackagePath": "staticwebassets\\umat-logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.project.props",
+      "PackagePath": "build\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.project.props",
+      "PackagePath": "buildMultiTargeting\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.project.props",
+      "PackagePath": "buildTransitive\\project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
